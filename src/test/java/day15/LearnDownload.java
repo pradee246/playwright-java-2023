@@ -25,7 +25,7 @@ public class LearnDownload {
 		System.out.println(download.url());
 		System.out.println(download.failure());
 		System.out.println(download.suggestedFilename());
-		download.saveAs(Paths.get(download.suggestedFilename()));
+		download.saveAs(Paths.get("./download/"+download.suggestedFilename()));
 		
 		
 		

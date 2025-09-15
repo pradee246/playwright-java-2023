@@ -8,13 +8,21 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
+
+		<testng.version>7.4.0</testng.version>
 	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
 		<dependency>
 			<groupId>com.microsoft.playwright</groupId>
 			<artifactId>playwright</artifactId>
-			<version>1.28.1</version>
+			<version>1.55.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
 		</dependency>
 
 	</dependencies>
